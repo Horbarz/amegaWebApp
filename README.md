@@ -12,7 +12,7 @@ This repository contains automated tests for Amega Web App (https://www.amega.fi
 ## Installation
 ###  1. Clone the repository:
 ```bash
-git clone https://github.com/Horbarz/quidaxQATest.git
+git clone https://github.com/Horbarz/amegaWebApp
 ```
 ```bash
 cd amegaWebApp
