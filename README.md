@@ -1,6 +1,6 @@
 # Amega Web App
 
-This repository contains automated tests for Amega Web App (https://www.amega.finance//), developed using Cypress. It contains the functionalities for login, logout and sign up
+This repository contains automated tests for Amega Web App (https://www.amega.finance/), developed using Cypress. It contains the functionalities for login, logout and sign up
 
 ## Prerequisites :computer:
 
