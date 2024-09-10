@@ -1,0 +1,29 @@
+{
+  "name": "amegaWebApp",
+  "version": "1.0.0",
+  "description": "A digital app for trading forex, stocks, indicies and more",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abioye Obaloluwa",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.1",
+    "cypress-mailosaur": "^2.15.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "esbuild": "^0.21.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": [
+      "cypress/e2e/[filepath]/**/*.{js,ts}",
+      "cypress/e2e/[filepath].{js,ts}",
+      "cypress/e2e/step_definitions/*.{js,ts}"
+    ]
+  },
+  "devDependencies": {
+    "cypress": "^13.14.2"
+  }
+}
